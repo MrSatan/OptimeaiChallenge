@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+    <TableLayout
+        android:stretchColumns="*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <TableRow
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:background="@drawable/border"
+            android:padding="2dp"
+            android:id="@+id/tvDateHeader"
+            android:text="Date"  />
+
+        <TextView
+            android:background="@drawable/border"
+            android:padding="2dp"
+            android:id="@+id/tvSpeedHeader"
+            android:text="Speed"  />
+
+        <TextView
+            android:background="@drawable/border"
+            android:padding="2dp"
+            android:id="@+id/tvCoordinateHeader"
+            android:text="Coordinate" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:background="@drawable/border"
+            android:padding="2dp"
+            android:id="@+id/tvDate"
+            android:text="N/A"  />
+
+        <TextView
+            android:background="@drawable/border"
+            android:padding="2dp"
+            android:id="@+id/tvSpeed"
+            android:text="N/A"  />
+
+        <TextView
+            android:background="@drawable/border"
+            android:padding="2dp"
+            android:id="@+id/tvCoordinate"
+            android:text="N/A" />
+
+
+    </TableRow>
+    </TableLayout>
+</LinearLayout>
